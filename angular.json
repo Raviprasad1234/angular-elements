@@ -51,8 +51,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "60000000kb",
+                  "maximumError": "1000000kb"
                 }
               ]
             }
@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "angular-custom-elements"
+  "defaultProject": "angular-custom-elements",
+  "cli": {
+    "analytics": false
+  }
 }
